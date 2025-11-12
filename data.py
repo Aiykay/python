@@ -108,3 +108,51 @@ d1 |= d2  # Updates d1 in-place
 print(d1)
 # Output: {'a': 1, 'b': 3, 'c': 4}
 
+# Basic Math Operations (Arithmetic Operators):
+# Python's built-in arithmetic operators allow for common mathematical calculations:
+# Addition: +
+# Subtraction: -
+# Multiplication: *
+# Division (float result): /
+# Floor Division (integer result, discarding remainder): //
+# Modulus (remainder of division): %
+# Exponentiation: **
+
+a = 10
+b = 3
+
+print(f"Addition: {a + b}")        # Output: 13
+print(f"Subtraction: {a - b}")     # Output: 7
+print(f"Multiplication: {a * b}")  # Output: 30
+print(f"Division: {a / b}")        # Output: 3.3333333333333335
+print(f"Floor Division: {a // b}") # Output: 3
+print(f"Modulus: {a % b}")         # Output: 1
+print(f"Exponentiation: {a ** b}") # Output: 1000
+
+# math Module Functions:
+# The math module provides a wide array of mathematical functions and constants. To use them, it must be imported: 
+
+import math
+
+#Some common functions and constants include:
+# Some common functions and constants include:
+# math.sqrt(x): Returns the square root of x.
+# math.pow(x, y): Returns x raised to the power of y.
+# math.ceil(x): Returns the smallest integer greater than or equal to x.
+# math.floor(x): Returns the largest integer less than or equal to x.
+# math.factorial(x): Returns the factorial of x.
+# math.log(x, base): Returns the logarithm of x to the given base. If base is not specified, it defaults to e.
+# math.sin(x), math.cos(x), math.tan(x): Trigonometric functions (input in radians).
+# math.degrees(x), math.radians(x): Convert angles between degrees and radians.
+# math.pi: The mathematical constant pi (π).
+# math.e: The mathematical constant e.
+
+import math
+
+print(f"Square root of 16: {math.sqrt(16)}") # Output: 4.0
+print(f"2 to the power of 3: {math.pow(2, 3)}") # Output: 8.0
+print(f"Ceiling of 3.7: {math.ceil(3.7)}") # Output: 4
+print(f"Floor of 3.7: {math.floor(3.7)}") # Output: 3
+print(f"Factorial of 5: {math.factorial(5)}") # Output: 120
+print(f"Log base 10 of 100: {math.log10(100)}") # Output: 2.0
+print(f"Value of pi: {math.pi}") # Output: 3.141592653589793
